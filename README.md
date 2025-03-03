@@ -210,9 +210,9 @@ You will be prompted to enter your desired deployer account and keystore passwor
 
 When you are done testing your contracts in production and they are ready for incorporation to the Badger ecosystem, the `production_setup` script can be ran to ensure that all parameters are set in compliance to Badger's production entities and contracts. You can run this script by doing the following:
 
-1. Open the [`scripts/production_setup.py`](scripts/production_setup.py) file and change the addresses for your strategy and vault mainnet addresses on lines 29 and 30.
+1. Open the [`scripts/production_setup.py`](3_scripts/production_setup.py) file and change the addresses for your strategy and vault mainnet addresses on lines 29 and 30.
 2. [Import a keystore](https://eth-brownie.readthedocs.io/en/stable/account-management.html#importing-from-a-private-key) into Brownie for the account currently set as `governance` for your contracts.
-3. Run [`scripts/production_setup.py`](scripts/production_setup.py) with the following command:
+3. Run [`scripts/production_setup.py`](3_scripts/production_setup.py) with the following command:
 
 ```bash
 $ brownie run scripts/production_setup.py --network mainnet
